@@ -6,9 +6,9 @@ require 'phpmailer/src/Exception.php';
 require 'phpmailer/src/PHPMailer.php';
 require 'phpmailer/src/SMTP.php';
 
-if(isset($_POST['submit'])){
+if(isset($_POST['send'])){
     //POST
-    $email = $_POST['mail'];
+    $email = $_POST['email'];
     $name = $_POST['name'];
     $subject = $_POST['subject'];
     //$message = $_POST['message'];
