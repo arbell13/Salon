@@ -25,7 +25,7 @@ if(isset($_POST['send'])){
     $mail->Port = 587;
 
     //SETTING Email
-    $mail->setFrom('contact@lashesbyabie.shop'); //Senders Email
+    $mail->setFrom('contact@lashesbyabie.shop', 'Lashes by Abie'); //Senders Email
     $mail->addAddress($email); //Receivers Email
     $mail->isHTML(true);
     $mail->Subject = "Lashes by Abie";
