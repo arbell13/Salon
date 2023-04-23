@@ -53,8 +53,14 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#gallery">About us</a></li>
           <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Portfolio</a></li>
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+            <li><a class="nav-link scrollto" href="#lashes">Lashes</a></li>
+            <li><a class="nav-link scrollto" href="#hair">Hair</a></li>
+            </ul>
+          </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+
           <li><a class="getstarted scrollto" href="#features">Get Started</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -72,7 +78,6 @@
           <div>
             <h1>Lashes and Hair Salon</h1>
             <h2>by: Abie Viceo</h2>
-            <a href="#" class="download-btn"><i class="bi bi-journal-check"></i>Booking</a>
           </div>
         </div>
         <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 hero-img" data-aos="fade-up">
@@ -179,6 +184,48 @@
       </div>
     </section><!-- End Details Section -->
 
+    <section id="lashes" class="lashes">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Lashlift and Eyelash Extension</h2>
+          <ul>
+          <li>Lashlift</li>
+          <li>Lashlift with Mascara tint</li>
+          <li>Natural Look Eyelash Extension</li>
+          <li>Mascara look Eyelash Extension</li>
+          <li>Supervolume Eyelash Extension</li>
+          <li>FoxEyeLook Eyelash Extension</li>
+          </ul>
+        </div>
+      </div>
+    </section><!-- End Gallery Section -->
+
+    <section id="hair" class="hair">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Hair Salon</h2>
+          <ul>
+          <li>Hair Color</li>
+          <li>Hair Color w/ highlight</li>
+          <li>Hair Color w/ highlights + Brazilian Blowout</li>
+          <li>Hair Color w/ highlights + Brazilian Botox</li>
+          <li>Hair Color w/ Brazilian Botox</li>
+          <li>Hair Color w/ Brazilian Blow out</li>
+          <li>Hair Rebond</li>
+          <li>Hair Rebond w/ Brazilian Blow out</li>
+          <li>Hair Rebond w/ Color + Brazilian Botox</li>
+          <li>Brazilian Blow out</li>
+          <li>Brazilian Botox</li>
+
+
+          
+          </ul>
+        </div>
+      </div>
+    </section><!-- End Gallery Section -->
+
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery">
       <div class="container" data-aos="fade-up">
@@ -283,6 +330,7 @@
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
+        
 
         <div class="section-title">
           <h2>Contact</h2>
@@ -317,7 +365,7 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form" data-aos="fade-up">
+            <form class="" action="salon.php" method="post">
               <div class="form-group">
                 <input placeholder="Your Name" type="text" name="name" class="form-control" id="name" required>
               </div>
@@ -335,11 +383,12 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit" name="send">Send Message</button></div>
             </form>
           </div>
 
         </div>
+      </form>
 
       </div>
     </section><!-- End Contact Section -->
